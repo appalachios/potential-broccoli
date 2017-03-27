@@ -1,0 +1,4 @@
+You need the Azure CLI to continue. Get it here: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
+
+1. az acs kubernetes install-cli
+2. az acs kubernetes get-credentials --resource-group=$RESOURCE_GROUP --name=$CLUSTER_NAME
